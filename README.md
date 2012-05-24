@@ -89,9 +89,9 @@ vm$ bundle install
 vm$ bundle exec rails s
 ```
 
+ファイルの編集はローカルマシンのお好みのエディタでファイルを編集してブラウザで下記URLにアクセスするとVMで動くアプリとして確認できる
 
-
-
+http://localhost:3030/
 
 
 
