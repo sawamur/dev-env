@@ -1,7 +1,7 @@
 
-# 標準開発環境
+# 標準Rails開発環境
 
-Vagrantを使ってRails開発環境をセットアップする
+Vagrantを使って仮想マシンのUbuntu上にRailsの開発環境をセットアップする
 
 
 ## 準備
@@ -49,8 +49,10 @@ $ vagrant destroy
 ログイン
 
 ```
-$ vagrant ssh -- -A
+$ vagrant ssh 
 ```
+
+vagrant ssh -- -A # エージェントフォワードする場合
 
 
 ## 作業例
