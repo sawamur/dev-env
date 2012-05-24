@@ -51,3 +51,50 @@ $ vagrant destroy
 ```
 $ vagrant ssh -- -A
 ```
+
+
+## 作業例
+
+workspace以下にrailsプロジェクトをclone
+
+```
+local$ cd workspace
+local$ git clone git://github.com/foo/bar.git
+```
+
+VMにログイン
+
+```
+local$ vagrant ssh 
+```
+
+ローカルのディレクトリが/vagrantにマウントされている。
+なのでworkspaceに移動する時は下記。
+
+
+```
+vm$ cd /vagrant/workspace
+```
+
+必要なgemのインストール
+
+```
+vm$ sudo gem install bundler
+vm$ bundle install
+```
+
+起動
+
+```
+vm$ bundle exec rails s
+```
+
+
+
+
+
+
+
+
+
+

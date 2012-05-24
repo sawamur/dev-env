@@ -1,2 +1,0 @@
-
-gem_package "bundler"
