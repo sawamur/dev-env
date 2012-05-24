@@ -93,7 +93,18 @@ vm$ bundle exec rails s
 
 ファイルの編集はローカルマシンのお好みのエディタでファイルを編集してブラウザで下記URLにアクセスするとVMで動くアプリとして確認できる
 
-http://localhost:3030/
+http://localhost:3000/
+
+
+### run_app.toolを使ったRailsの起動
+
+
+Macの場合、run_app.toolをテキストエディタで編集すると
+run_app.toolをfinderからクリックすることでRailsを起動することができる
+
+
+
+
 
 
 
