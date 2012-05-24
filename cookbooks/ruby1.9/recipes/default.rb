@@ -10,6 +10,7 @@ package "libxml2"
 package "libxml2-dev"
 package "libncurses5-dev"
 package "libreadline5-dev"
+package "libyaml-dev"
 
 execute "get & unpack #{ node[:ruby][:version] }" do
   user "root"

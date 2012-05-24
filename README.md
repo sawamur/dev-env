@@ -49,5 +49,5 @@ $ vagrant destroy
 ログイン
 
 ```
-$ vagrant ssh
+$ vagrant ssh -- -A
 ```
