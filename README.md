@@ -52,7 +52,7 @@ $ vagrant destroy
 $ vagrant ssh 
 ```
 
-vagrant ssh -- -A # エージェントフォワードする場合
+エージェントフォワードする場合`vagrant ssh -- -A `
 
 
 ## 作業例
@@ -96,7 +96,7 @@ vm$ bundle exec rails s
 http://localhost:3000/
 
 
-### run_app.toolを使ったRailsの起動
+## run_app.toolを使ったRailsの起動
 
 
 Macの場合、run_app.toolをテキストエディタで編集すると
