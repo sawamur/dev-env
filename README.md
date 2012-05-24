@@ -17,13 +17,13 @@ http://vagrantup.com/
 
 ## 初回起動
 
-このリポジトリをクローン
+このリポジトリをクローンして下記のコマンドを実行する
 
 ```
 $ vagrant up
 ```
 
-初回起動時にrubyやimagemagickなどのインストールが行われる
+初回起動時にubuntuイメージがダウンロードされrubyやimagemagickなどのインストールが行われる
 
 
 ## その他の操作
